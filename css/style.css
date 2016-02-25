@@ -3,7 +3,7 @@ html,body{
     padding:0;
     width:100%;
     height:100%;
-    background-color:black;
+    background-color:#FFFFFF;
 }
 
 /*Example for fonts - and css for middle text.*/
@@ -27,4 +27,50 @@ html,body{
     margin-left: auto;
     margin-right: auto;
     max-width: 460px;
-}*/
+}
+
+*/
+
+/*
+
+           
+    
+            
+            
+        
+*/
+
+header{
+    display:inline;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:60px;
+    border-bottom:solid 5px #d1d1d1;
+}
+
+#explore_box{
+    width:150px;
+    height:60px;
+    background-color:aqua;
+    float:left;
+}
+
+#plated_logo{
+    width:120px;
+    height:60px;
+    float:left;
+}
+
+#log_in{
+    width:50px;
+    height:60px;
+    float:left;
+}
+
+#sign_up{
+    width:110px;
+    height:60px;
+    background-color:46b98b;
+    float:right;
+}
