@@ -31,17 +31,8 @@ html,body{
 
 */
 
-/*
-
-           
-    
-            
-            
-        
-*/
-
 header{
-    display:inline-block;
+    display:block;
     margin:0 auto;
     padding:0;
     width:100%;
@@ -49,7 +40,115 @@ header{
     border-bottom:solid 1px #d1d1d1;
 }
 
-/*
+#head_left{
+    width:30%;
+    height:100%;
+    float:left;
+    background-color:red;
+}
+#head_center{
+    width:40%;
+    height:100%;
+    float:left;
+    background-color:blue;
+}
+
+#head_right{
+    width:30%;
+    height:100%;
+    float:right;
+    background-color:aqua;
+}
+
+.header_font_style{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    color: #3B3B3B;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Circular 5r", "Circular A", "Circular B",sans-serif;
+}
+
+#explorer_box{
+    width:140px;
+    height: 60px;
+    float: left;
+}
+
+#explorer_txt{
+    width:auto;
+    height:auto;
+}
+
+#small_box{
+    position:relative;
+    top:24px;
+    margin-left:20px;
+    width:6px;
+    height:10px;
+    float:left;
+    border:solid 1px black;
+}
+
+#plated_logo{
+    margin-top:10px;
+    margin-left:calc(40%);
+    width:120px;
+    height:100%;
+    float:left;
+}
+
+#log_in{
+    width:75px;
+    height:60px;
+    float:right;
+}
+
+#sign_up{
+    width:110px;
+    height:60px;
+    background-color:#46b98b;
+    float:right;
+}
+
+@media only screen and (max-width:699px){
+    
+    #explorer_txt{
+    display:none;
+    }
+    
+    #log_in{
+    display:none;
+}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+/*  Middle Section Fonts
 .header__nav__toggle:before {
     font-size: 16px;
     line-height: 16px;
@@ -72,48 +171,3 @@ header{
     top: 50%;
     display: block;
 */
-
-.header_font_style{
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 60px;
-    letter-spacing: 1.2px;
-    color: #3B3B3B;
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Circular 5r", "Circular A", "Circular B",sans-serif;
-    
-}
-
-#explore_box{
-    width:auto;
-    height: 60px;
-    float: left;
-}
-#small_box{
-    width:8px;
-    height:12px;
-    border:solid 1px black;
-}
-
-
-#plated_logo{
-    width:120px;
-    height:60px;
-    float:left;
-}
-
-#log_in{
-    width:auto;
-    height:60px;
-    float:left;
-}
-
-#sign_up{
-    width:110px;
-    height:60px;
-    background-color:#46b98b;
-    float:right;
-}
