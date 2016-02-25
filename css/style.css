@@ -41,20 +41,63 @@ html,body{
 */
 
 header{
-    display:inline;
+    display:inline-block;
     margin:0 auto;
     padding:0;
     width:100%;
     height:60px;
-    border-bottom:solid 5px #d1d1d1;
+    border-bottom:solid 1px #d1d1d1;
+}
+
+/*
+.header__nav__toggle:before {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Icon 4r", "Icon A", "Icon B";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    content: "\e909";
+    font-variant: normal;
+    speak: none;
+    text-indent: 0;
+    text-transform: none;
+    vertical-align: top;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    display: block;
+*/
+
+.header_font_style{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    color: #3B3B3B;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Circular 5r", "Circular A", "Circular B",sans-serif;
+    
 }
 
 #explore_box{
-    width:150px;
-    height:60px;
-    background-color:aqua;
-    float:left;
+    width:auto;
+    height: 60px;
+    float: left;
 }
+#small_box{
+    width:8px;
+    height:12px;
+    border:solid 1px black;
+}
+
 
 #plated_logo{
     width:120px;
@@ -63,7 +106,7 @@ header{
 }
 
 #log_in{
-    width:50px;
+    width:auto;
     height:60px;
     float:left;
 }
@@ -71,6 +114,6 @@ header{
 #sign_up{
     width:110px;
     height:60px;
-    background-color:46b98b;
+    background-color:#46b98b;
     float:right;
 }
