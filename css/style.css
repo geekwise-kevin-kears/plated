@@ -6,30 +6,7 @@ html,body{
     background-color:#FFFFFF;
 }
 
-/*Example for fonts - and css for middle text.*/
-/*.see-available-plans--brochure__title {
-    padding-left: 12px;
-    padding-right: 12px;
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    width: 100%;
-    font-size: 40px;
-    line-height: 41px;
-    font-weight: 800;
-    font-style: normal;
-    font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B", Surveyor Text,Times New Roman,Times New Roman,Times,Baskerville,Georgia,serif;
-    color: #fff;
-    margin-bottom: 22px;
-    position: relative;
-    text-align: center;
-    text-transform: lowercase;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 460px;
-}
 
-*/
 
 header{
     display:block;
@@ -44,20 +21,18 @@ header{
     width:30%;
     height:100%;
     float:left;
-    background-color:red;
 }
 #head_center{
     width:40%;
     height:100%;
     float:left;
-    background-color:blue;
+    
 }
 
 #head_right{
     width:30%;
     height:100%;
     float:right;
-    background-color:aqua;
 }
 
 .header_font_style{
@@ -95,9 +70,8 @@ header{
 }
 
 #plated_logo{
-    margin-top:10px;
-    margin-left:calc(40%);
-    width:120px;
+    margin: 10px 0 0 33%;
+    width:90px;
     height:100%;
     float:left;
 }
@@ -112,10 +86,98 @@ header{
     width:110px;
     height:60px;
     background-color:#46b98b;
+    color:snow;
+    font-weight:bold;
     float:right;
 }
 
+  #head_one{
+        display:none;
+    }
+    
+    #head_two{
+        display:none;
+    }
+    
+    #head_three{
+        display:none;
+    }
+
+
+
 @media only screen and (max-width:699px){
+    #head_left{
+    display:none;
+}
+#head_center{
+    display:none;
+}
+
+#head_right{
+    display:none;
+}
+    
+    #head_one{
+        display:inline;
+        width:10%;
+        height:100%;
+    }
+    
+    #head_two{
+        display:inline;
+        width:65%;
+        height:100%;
+    }
+    
+    #head_three{
+        display:inline;
+        width:25%;
+        height:100%;
+    }
+    
+    #explorer_txt{
+    display:none;
+    }
+    
+    #log_in{
+    display:none;
+}
+       
+}
+
+@media only screen and (max-width:420px){
+    #plate_logo{
+        margin:10px 0px 0px 0px;
+    }
+    
+    #head_left{
+    display:none;
+}
+#head_center{
+    display:none;
+}
+
+#head_right{
+    display:none;
+}
+    
+    #head_one{
+        display:inline;
+        width:10%;
+        height:100%;
+    }
+    
+    #head_two{
+        display:inline;
+        width:20%;
+        height:100%;
+    }
+    
+    #head_three{
+        display:inline;
+        width:60%;
+        height:100%;
+    }
     
     #explorer_txt{
     display:none;
@@ -125,49 +187,19 @@ header{
     display:none;
 }
     
+    #sign_up{
+    width:70px;
+    height:60px;
+    background-color:#46b98b;
+    color:snow;
+    font-weight:bold;
+    float:right;
+}
     
-    
+
+       
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-*/
-
-
-
-
-
-/*  Middle Section Fonts
-.header__nav__toggle:before {
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Icon 4r", "Icon A", "Icon B";
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    content: "\e909";
-    font-variant: normal;
-    speak: none;
-    text-indent: 0;
-    text-transform: none;
-    vertical-align: top;
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    position: absolute;
-    top: 50%;
-    display: block;
-*/
