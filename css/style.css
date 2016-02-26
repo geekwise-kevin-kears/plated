@@ -15,66 +15,56 @@ header{
     width:100%;
     height:60px;
     border-bottom:solid 1px #d1d1d1;
-}
-
-#head_left{
-    width:30%;
-    height:100%;
-    float:left;
-}
-#head_center{
-    width:40%;
-    height:100%;
-    float:left;
+    background-image: url('http://i.imgur.com/kETJpSj.png');
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-position:center;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
     
 }
 
-#head_right{
-    width:30%;
-    height:100%;
-    float:right;
-}
-
-.header_font_style{
+.header_font{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
     line-height: 60px;
     letter-spacing: 1.2px;
-    color: #3B3B3B;
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Circular 5r", "Circular A", "Circular B",sans-serif;
+    font-size-adjust: 14px;
+    font-family: sans-serif;
+    font-weight:600;
+   
 }
 
-#explorer_box{
+#explore_box{
     width:140px;
     height: 60px;
     float: left;
 }
 
+#menu_lines{ 
+    display: inline-block;
+    position:relative;
+    top:2.5px;
+    border-top: calc(17px/1.8) double black; 
+    border-bottom: calc(6px/2) solid black;
+    content:"";
+    height: 4px; 
+    width:18px;
+    padding-right: -25px;
+}
+
+
 #explorer_txt{
+    margin-left:10px;
     width:auto;
     height:auto;
+    font-size-adjust: 14px;
+    font-family: sans-serif;
+    font-weight:600;
 }
 
-#small_box{
-    position:relative;
-    top:24px;
-    margin-left:20px;
-    width:6px;
-    height:10px;
-    float:left;
-    border:solid 1px black;
-}
-
-#plated_logo{
-    margin: 10px 0 0 33%;
-    width:90px;
-    height:100%;
-    float:left;
-}
 
 #log_in{
     width:75px;
@@ -91,49 +81,52 @@ header{
     float:right;
 }
 
-  #head_one{
-        display:none;
-    }
+main{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 630px;
     
-    #head_two{
-        display:none;
-    }
-    
-    #head_three{
-        display:none;
-    }
+}
 
+#hero_image{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-image:url('http://i.imgur.com/gsPRcZY.jpg');
+    
+
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+
+@media only screen and (max-width:999px){
+    
+     header{
+        background-size:90px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+   
+  
 
 
 @media only screen and (max-width:699px){
-    #head_left{
-    display:none;
-}
-#head_center{
-    display:none;
-}
-
-#head_right{
-    display:none;
-}
     
-    #head_one{
-        display:inline;
-        width:10%;
-        height:100%;
+    header{
+        background-size:90px;
     }
     
-    #head_two{
-        display:inline;
-        width:65%;
-        height:100%;
-    }
-    
-    #head_three{
-        display:inline;
-        width:25%;
-        height:100%;
-    }
     
     #explorer_txt{
     display:none;
@@ -146,37 +139,10 @@ header{
 }
 
 @media only screen and (max-width:420px){
-    #plate_logo{
-        margin:10px 0px 0px 0px;
-    }
+ 
     
-    #head_left{
-    display:none;
-}
-#head_center{
-    display:none;
-}
-
-#head_right{
-    display:none;
-}
-    
-    #head_one{
-        display:inline;
-        width:10%;
-        height:100%;
-    }
-    
-    #head_two{
-        display:inline;
-        width:20%;
-        height:100%;
-    }
-    
-    #head_three{
-        display:inline;
-        width:60%;
-        height:100%;
+    header{
+        background-size:90px;
     }
     
     #explorer_txt{
@@ -199,6 +165,8 @@ header{
 
        
 }
+
+
 
 
 
