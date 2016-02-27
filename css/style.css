@@ -45,12 +45,14 @@ header{
 #menu_lines{ 
     display: inline-block;
     position:relative;
-    top:2.5px;
+    top:20px;
+    left:20px;
     border-top: calc(17px/1.8) double black; 
     border-bottom: calc(6px/2) solid black;
     content:"";
     height: 4px; 
     width:14px;
+    float:left;
     
 }
 
@@ -88,15 +90,28 @@ main{
     
 }
 
-#hero_section{
+#hero_image{
     margin:0 auto;
     padding:0;
     width:100%;
+    height:550px;
     background-image:url('http://i.imgur.com/RtIG5AV.jpg');
     background-repeat:no-repeat;
     background-size:100%;
-    background-size: cover;
 }
+
+#hero_image_999{
+    display:none;
+}
+
+#hero_image_699{
+    display:none;
+}
+
+#hero_image_420{
+    display:none;
+}
+
 #info_box{
     display:inline-block;
     margin:0 auto;
@@ -158,91 +173,96 @@ input{
     height:60px;
     line-height:60px;
     background-color:#46b98b;
-    
 }
 
 
 
-@media only screen and (max-width:999px){
+
+@media screen and (max-width: 999px){
     
-     header{
+    header{
         background-size:90px;
     }
     
-    #hero_image{
-  
-    background-image: url('http://i.imgur.com/OXzdBym.jpg');
-   
+    #head_image{
+        display:none;
     }
     
-}
+    #head_image_699{
+        display:none;
+    }
+    
+    #head_image_420{
+        display:none;
+    }
+    
+    #head_image_999{
+    height:450px;
+    background-image:url('http://i.imgur.com/OXzdBym.jpg');
+    background-repeat:no-repeat;
+    background-size:auto;
+    }
    
   
-
+}
 
 @media only screen and (max-width:699px){
     
     header{
-        background-size:90px;
+        background-size:80px;
     }
     
+    #head_image{
+        display:none;
+    }
+
+    #head_image_999{
+        display:none;
+    }
+    
+    #head_image_420{
+        display:none;
+    }
+    
+    #head_image_699{
+    height:400px;
+    background-image:url('http://i.imgur.com/D4herY2.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    }
+
+    main > #hero_section > #info_box > h1{
+        font-size: 30px;
+    }
+    
+    #menu_lines{
+        position:relative;
+        left:5px;
+    }
     
     #explorer_txt{
-    display:none;
+        display:none;
     }
     
     #log_in{
-    display:none;
-}
+        display:none;
+    }
        
 }
 
 @media only screen and (max-width:420px){
- 
-    
-    header{
-        background-size:90px;
-    }
-    
-    
-    #hero_image{
-    background-image: url('http://i.imgur.com/Cds6hm7.jpg');
-    }
     
     main > #hero_section > #info_box > h1{
-    font-size: 20px;
-    line-height:1rem;
-    font-weight: 800;
-    font-style: normal;
-    font-family: "Surveyor Text 8r", "Surveyor Text A", "Surveyor Text B", Surveyor Text,Times New Roman,Times New Roman,Times,Baskerville,Georgia,serif;
-    text-align: center;
-    text-transform:lowercase;
-    color: #fff;
-}
-
-
-    
-    #explorer_txt{
-    display:none;
+        font-size: 22px;
     }
     
-    #log_in{
-    display:none;
-}
+    #head_image{
+        display:none;
+    }
     
-    #sign_up{
-    width:90px;
-    height:60px;
-    background-color:#46b98b;
-    color:snow;
-    font-weight:bold;
-    float:right;
-}
     
 
     
-
-       
 }
 
 
