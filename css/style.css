@@ -74,7 +74,7 @@ header{
 }
 
 #sign_up{
-    width:110px;
+    width:90px;
     height:60px;
     background-color:#46b98b;
     color:snow;
@@ -90,27 +90,17 @@ main{
     
 }
 
-#hero_image{
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:550px;
-    background-image:url('http://i.imgur.com/RtIG5AV.jpg');
-    background-repeat:no-repeat;
-    background-size:100%;
-}
-
-#hero_image_999{
-    display:none;
-}
-
-#hero_image_699{
-    display:none;
-}
-
-#hero_image_420{
-    display:none;
-}
+section{
+        margin:0 auto;
+        padding:0;
+        width:100%;
+        height:550px;
+        background-image:url('http://i.imgur.com/RtIG5AV.jpg');
+        background-repeat:no-repeat;
+        background-size:100%;
+        }
+            
+            
 
 #info_box{
     display:inline-block;
@@ -126,14 +116,14 @@ main{
     text-align: center;
     line-height: 20px;
     letter-spacing: 1.3px;
-    margin-top:auto;
+    margin-top:30px;
 }
 
 
 
 
 
-main > #hero_section > #info_box > h1{
+main > section > #info_box > h1{
     font-size: 37px;
     line-height:1rem;
     font-weight: 800;
@@ -154,7 +144,6 @@ main > #hero_section > #info_box > h1{
 }
 
 input{
-    margin-left:calc(50% - 150px);
     width:296px;
     height:60px;
     line-height:60px;
@@ -171,6 +160,7 @@ input{
     margin-left:calc(50% - 150px);
     width:300px;
     height:60px;
+    text-align: center;
     line-height:60px;
     background-color:#46b98b;
 }
@@ -184,24 +174,10 @@ input{
         background-size:90px;
     }
     
-    #head_image{
-        display:none;
+    section{
+        background-image:url('http://i.imgur.com/48i0cm8.jpg?1');
     }
     
-    #head_image_699{
-        display:none;
-    }
-    
-    #head_image_420{
-        display:none;
-    }
-    
-    #head_image_999{
-    height:450px;
-    background-image:url('http://i.imgur.com/OXzdBym.jpg');
-    background-repeat:no-repeat;
-    background-size:auto;
-    }
    
   
 }
@@ -210,34 +186,27 @@ input{
     
     header{
         background-size:80px;
+        height:50px;
     }
     
-    #head_image{
-        display:none;
-    }
-
-    #head_image_999{
-        display:none;
+    #sign_up{
+        height:50px;
+        line-height:50px;
     }
     
-    #head_image_420{
-        display:none;
+    section{
+        background-image:url('http://i.imgur.com/Aa3qgT7.jpg');
     }
     
-    #head_image_699{
-    height:400px;
-    background-image:url('http://i.imgur.com/D4herY2.jpg');
-    background-repeat:no-repeat;
-    background-size:100%;
-    }
-
-    main > #hero_section > #info_box > h1{
+    main > section > #info_box > h1{
         font-size: 30px;
     }
     
     #menu_lines{
         position:relative;
-        left:5px;
+        top:18px;
+        left:6px;
+        
     }
     
     #explorer_txt{
@@ -247,25 +216,58 @@ input{
     #log_in{
         display:none;
     }
+    
+    
+    #zipcode_box{
+    margin-left:calc(50% - 110px);
+    width:220px;
+    height:50px;
+    line-height:50px;
+    background-color:snow;
+    
+}
+
+input{
+    width:210px;
+    height:40px;
+    line-height:50px;
+    background-color:#fff;
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align:middle;
+
+
+}
+
+#plan_button{
+    margin-left:calc(50% - 110px);
+    width:220px;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+    background-color:#46b98b;
+}
        
 }
 
+
 @media only screen and (max-width:420px){
     
-    main > #hero_section > #info_box > h1{
+    main > section > #info_box > h1{
         font-size: 22px;
     }
-    
-    #head_image{
-        display:none;
+                
+    section{
+        background-image:url('http://i.imgur.com/Lfxz3UO.jpg');
     }
     
-    
-
-    
+    #zipcode_box{
+        margin-top:40%;
+    }
+                
 }
-
-
 
 
 
